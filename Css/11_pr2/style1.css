@@ -563,9 +563,50 @@ h3{
 .clear{
     clear: both;
 }
+/* footer section */
 
-.footer-section{
-    width: 100%;
-    height: 100px;
-    background-color: #616161;
+.footer-container{
+    width:100%;
+    background:black;
+    padding:80px 20px;
+     text-align:center; 
+}
+
+.footer-container .top-section button{
+    background:white;
+    color:black;
+    padding:12px 25px;
+    font-size:15px;
+    margin-bottom:20px;
+    font-weight: 100;
+}
+
+.footer-container .top-section button:hover{
+    background:#ccc;
+}
+
+.footer-container .top-section i{
+    margin-right:5px;
+}
+
+.footer-container .social-icons{
+    margin-bottom: 15px;
+}
+
+.footer-container .social-icons i{
+    color:white;
+    font-size:23px;
+    
+}
+
+.footer-container .social-icons i:hover{
+    color:#999;
+}
+
+.footer-container .link-section a{
+    color:white;
+    font-size:15px;
+    text-decoration:none;
+    font-weight: 100;
+   
 }

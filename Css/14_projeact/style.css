@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+
+}
+
+.sidebar{
+    width: 20%;
+    height: 100vh;
+    background-color: red;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+   
+       
+}
+.sidebar .cmp-name h1{
+    padding: 90px 0px;
+    margin: 0px 40px;
+    color: white;
+}
+.sidebar .menu-section a{
+    list-style-type:none;
+    text-decoration: none;
+}
+.sidebar .menu-section ul li{
+    margin-bottom: 25px;
+
+}
+.sidebar .menu-section ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 40px;
+    color: white;
+}
+
+.main-contanet{
+    width: 80%;
+    height: 100vh;
+    background-color: white;
+    padding: 90px 0px;
+    margin: 0px 40px;
+    margin-left: 350px;
+}
+.title-section h2{
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.title-section p{
+    color: red;
+    font-size: 48px;
+    font-weight: 600;
+
+}
+.image-section{
+    margin-top: 10px;
+    padding: auto;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+.image-section img{
+    width: 550px;
+    margin-top: 15px;
+    margin-bottom: -6px;
+    margin-left: 5px;
+}
+
+.Services-section{
+    margin-top: 60px;
+}
+.Services-section h3{
+     color: red;
+    font-size: 48px;
+    font-weight: 600;
+
+}
+.Services-section p{
+    margin-top: 20px;
+    font-size:20px;
+    font-weight:400;
+   
+}
+.Services-section .para{
+    font-size: 20px;
+    font-weight: 400;
+    line-height:1.5;
+}
+/*Designers-section*/
+.Designers-section{
+    margin-top: 60px;
+}
+.Designers-section h3{
+    font-size: 48px;
+    color: red;
+    margin-bottom: 20px;
+}
+.Designers-section p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.Designers-section .para{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.Designers-section bold{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+/*card-section*/
+.Designers-section .card-section{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+.Designers-section .card-section .card-1,.card-2,.card-3{
+    background-color: #f1eeee;
+}
+.Designers-section .card-section .card-1 img{
+    width:370px;
+}
+.Designers-section .card-section .card-1 h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    margin: 20px 20px;
+}
+.Designers-section .card-section .card-1 font{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 20px;
+    color: #565656;
+}
+.Designers-section .card-section .card-1 p{
+    font-size:16px;
+    font-weight: 400;
+    margin: 20px 20px;
+    color: black;
+    line-height: 1.5;
+
+}
+/*caed-2*/
+.Designers-section .card-section .card-2 img{
+    width: 370px;
+}
+.Designers-section .card-section .card-2 h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 20px 20px;
+    color: black;
+}
+.Designers-section .card-section .card-2 font{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 20px;
+    color: #565656;
+}
+.Designers-section .card-section .card-2 p{
+    font-size: 16px;
+    color: black;
+    margin: 20px 20px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+/*card-3*/
+.Designers-section .card-section .card-3 img{
+    width: 370px;
+}
+.Designers-section .card-section .card-3 h3{
+    font-size: 24px;
+    color: black;
+    font-weight: 400;
+    margin: 20px 20px;
+}
+.Designers-section .card-section .card-3 font{
+    font-size: 20px;
+    color: #565656;
+    font-weight: 400;
+    margin: 20px 20px;
+
+}
+.Designers-section .card-section .card-3 p{
+    font-size: 16px;
+    color: black;
+    margin: 20px 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+/*packages section*/
+.Packages-section h4{
+    color: red;
+    font-size: 48px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.Packages-section p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.Packages-section .packages-card{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+.Packages-section .packages-card .basic-card,.pro-card{
+    background-color: #eaeaea;
+    width: 49%;
+}
+.Packages-section .packages-card .basic-card h5{
+    background-color: gray;
+    height: 90px;
+    color: white;
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 30px;
+}
+.Packages-section .packages-card .basic-card p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+.Packages-section .packages-card .basic-card .para{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 1.9;
+    padding: 5px;
+    font-weight:500;
+}
+.Packages-section .packages-card .basic-card p button{
+    padding: 15px 30px;
+    margin-top: 10px;
+    border: none;
+    font-size: 17px;
+    background-color: white;
+}
+.Packages-section .packages-card .basic-card p button:hover{
+    background-color: black;
+    color: white;
+}
+
+/*pro card*/
+.Packages-section .packages-card .pro-card h5{
+    background-color: red;
+    height: 90px;
+    color: white;
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 30px;
+}
+.Packages-section .packages-card .pro-card p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+.Packages-section .packages-card .pro-card .para{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+    font-weight: 500;
+    line-height: 1.9;
+}
+.Packages-section .packages-card .pro-card p button{
+    padding: 15px 30px;
+    margin-top: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+
+}
+.Packages-section .packages-card .pro-card p button:hover{
+    background-color: black;
+}
+/*contact section*/
+.contact-section h6{
+    color: red;
+    font-size: 48px;
+    margin-top: 75px;
+    margin-bottom: 20px;
+}
+.contact-section p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.contact-section label{
+    font-size: 20px;
+
+}
+.contact-section input{
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    margin-bottom: 20px;
+}
+.contact-section button{
+    width: 100%;
+    padding: 15px 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: 20px;
+}
+.contact-section button:hover{
+    background-color: #cdcbcb;
+    color: black;
+}
+/*footer section*/
+
+.footer-container {
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+    margin-top: 75px;
+    text-align: right;
+    padding: 50px;
+    font-size: 20px;
+    color: white;
+}
+
