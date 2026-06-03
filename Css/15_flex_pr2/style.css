@@ -1,0 +1,334 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    letter-spacing: 4px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; 
+    z-index: 1000;
+
+}
+
+.navbar .logo:hover{
+    background-color: lightgray;
+}
+
+.menu{
+  display:flex;
+  gap:30px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+.menu ul li{
+    float: left;
+    margin: 0px 30px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.2em;;
+}
+.menu ul li:hover{
+    background-color: lightgray;
+    
+}
+
+/* header section */
+.hero{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero img{
+    width: 98%;
+    height: 100vh;
+    margin:0px 15px;
+}
+/* Center Text */
+.hero-text{
+    position: absolute;
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    font-size: 38px;
+    letter-spacing: 3px;
+}
+
+.logo-box{
+    background: rgba(0,0,0,0.7);
+    padding: 10px 18px;
+    font-weight: bold;
+}
+
+.logo-text{
+    font-weight: 200;
+}
+/*project section*/
+.project-section h1{
+    font-size: 22px;
+    margin: 60px 30px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    border-bottom: 1px solid lightgray;   
+}
+/*image section*/
+.image-section{
+    margin: 20px 40px;
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.image{
+    position: relative;
+}
+.image img{
+    width: 348px;
+    display: block ;
+    
+}
+.image-text {
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    z-index: 2;
+}
+/*about section*/
+.about-section h2{
+    margin: 60px 40px;
+    font-size: 23px;
+    font-weight: 350;
+    padding: 20px 0px;
+    border-bottom: 1px solid lightgray;
+}
+.about-section p{
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    margin: -45px 40px;
+}
+/*card section*/
+.card-section{
+    display: flex;
+    gap: 15px;
+    margin: 100px 35px;
+}
+.card-section .card-1, .card-2, .card-3, .card-4{
+    background-color: #f1f1f1;
+}
+.card-section .card-1 img{
+    width: 348px;
+}
+.card-section .card-1 h3{
+    font-size: 24px;
+    font-weight: 350;
+    margin: 20px 0px;
+    color: black;
+}
+.card-section .card-1 font{
+    color: gray;
+    margin:20px 0px;
+    font-size: 15px;
+    
+}
+.card-section .card-1 p{
+    margin: 15px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: black;
+}
+.card-section .card-1 button{
+    width: 340px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #d3d3d3;
+    font-size: 18px;
+    font-weight: 400;
+}
+.card-section .card-1 button:hover{
+    background-color: #bcbcbc;
+}
+/*card-2*/
+.card-section .card-2 img{
+    width: 348px;
+}
+.card-section .card-2 h3{
+    font-size: 24px;
+    font-weight: 350;
+    margin: 20px 0px;
+}
+.card-section .card-2 font{
+    color: gray;
+    margin:20px 0px;
+    font-size: 15px;
+}
+.card-section .card-2 p{
+    margin: 15px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: black;
+}
+.card-section .card-2 button{
+    width: 340px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #d3d3d3;
+    font-size: 18px;
+    font-weight: 400;
+}
+.card-section .card-2 button:hover{
+    background-color: #bcbcbc;
+}
+/*card-3*/
+.card-section .card-3 img{
+    width: 348px;
+}
+.card-section .card-3 h3{
+    font-size: 24px;
+    font-weight: 350;
+    margin: 20px 0px;
+}
+.card-section .card-3 font{
+    color: gray;
+    margin:20px 0px;
+    font-size: 15px;
+}
+.card-section .card-3 p{
+    margin: 15px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: black;
+}
+.card-section .card-3 button{
+    width: 340px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #d3d3d3;
+    font-size: 18px;
+    font-weight: 400;
+}
+.card-section .card-3 button:hover{
+    background-color: #bcbcbc;
+}
+/*card-4*/
+.card-section .card-4 img{
+    width: 348px;
+}
+.card-section .card-4 h3{
+    font-size: 24px;
+    font-weight: 350;
+    margin: 20px 0px;
+}
+.card-section .card-4 font{
+    color: gray;
+    margin:20px 0px;
+    font-size: 15px;
+}
+.card-section .card-4 p{
+    margin: 15px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: black;
+}
+.card-section .card-4 button{
+    width: 340px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #d3d3d3;
+    font-size: 18px;
+    font-weight: 400;
+}
+.card-section .card-4 button:hover{
+    background-color: #bcbcbc;
+}
+/*contact-section*/
+.contact-section h3{
+    margin: 70px 40px;
+    font-size: 25px;
+    font-weight: 350;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid lightgray;
+    padding: 15px 0px;
+
+}
+.contact-section p{
+    margin: -50px 40px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+/* form-section */
+.form-section{
+    margin: 70px 40px;
+    width: 95%;
+}
+.form-section input{
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+.form-section input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+}
+.form-section button{
+    background-color: black;
+    padding: 10px 10px;
+    width: 12%;
+    color: white;
+    border: none;
+    font-size:16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-section button:hover{
+    background-color: #cdcbcb;
+    color: black;
+}
+.location-image img{
+    width: 100%;
+    margin-top: 30px;
+}
+/* footer section */
+.footer-section{
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    color: white;
+    font-size: 16px;
+    padding: 50px 60px;
+    margin-top: -60px;
+    text-align: center;
+}
+.footer-section a{
+    color: white;
+}
+
+
+
+
