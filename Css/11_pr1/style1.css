@@ -208,50 +208,59 @@ h3{
     clear: both;
 }
 
+
+
+
 /* team section */
-.team-section{
-   padding:0 auto;
-   margin-top: 100px;
-  
+.team-section {
+    padding: 0% 20px;
+    margin-top: 100px;
+    
+
+
 }
-.team-card{
+
+.team-card {
     border: 2px solid white;
-    box-shadow: 2px 2px 2px whitesmoke;
+    box-shadow: 1px 1px 5px black;
     margin: 10px;
 }
 
 
-.team-card h5{
+.team-card h5 {
     margin: 10px 10px;
     font-size: 1.5rem;
     font-weight: 100;
 }
 
-.team-card font{
-     margin: 10px 5px;
+.team-card font {
+    margin: 10px 5px;
     font-size: 1.0rem;
     font-weight: 100;
     color: gray;
 }
-.team-card .team{
+
+.team-card .team {
     margin: 10px 5px;
     font-size: 1.0rem;
     font-weight: 100;
-    
+
 }
 
-.team-card .contact{
-   margin: 5px;
+.team-card .contact {
+    margin: 5px;
     font-size: 1.4rem;
     font-weight: 100;
     padding: 10px 20px;
-    width: 340px;
+    width: 300px;
     text-align: center;
+    
 }
 
-.team-card .contact i{
+.team-card .contact i {
     margin-right: 5px;
 }
+
 .clear{
     clear: both;
 }
@@ -291,6 +300,7 @@ h3{
 .work-container{
     width: 95%;
     margin: 0% auto;
+    
 
 }
 .work-container .design-1 img{
@@ -298,6 +308,7 @@ h3{
     margin-left: 2px;
     width: 350px;
     margin-bottom: 5px;
+
    
 }
 .work-container .design-2 img{
@@ -563,6 +574,7 @@ h3{
 .clear{
     clear: both;
 }
+
 /* footer section */
 
 .footer-container{
@@ -570,43 +582,4 @@ h3{
     background:black;
     padding:80px 20px;
      text-align:center; 
-}
-
-.footer-container .top-section button{
-    background:white;
-    color:black;
-    padding:12px 25px;
-    font-size:15px;
-    margin-bottom:20px;
-    font-weight: 100;
-}
-
-.footer-container .top-section button:hover{
-    background:#ccc;
-}
-
-.footer-container .top-section i{
-    margin-right:5px;
-}
-
-.footer-container .social-icons{
-    margin-bottom: 15px;
-}
-
-.footer-container .social-icons i{
-    color:white;
-    font-size:23px;
-    
-}
-
-.footer-container .social-icons i:hover{
-    color:#999;
-}
-
-.footer-container .link-section a{
-    color:white;
-    font-size:15px;
-    text-decoration:none;
-    font-weight: 100;
-   
 }

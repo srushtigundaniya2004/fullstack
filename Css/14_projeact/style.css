@@ -40,13 +40,13 @@
     color: white;
 }
 
-.main-contanet{
+.main-content{
     width: 80%;
     height: 100vh;
     background-color: white;
     padding: 90px 0px;
-    margin: 0px 40px;
-    margin-left: 350px;
+    margin: 0px 10px;
+     margin-left: 300px;
 }
 .title-section h2{
     font-size: 70px;
@@ -58,25 +58,23 @@
     font-size: 48px;
     font-weight: 600;
     padding-bottom: 10px;
-    border-bottom: 8px solid red;
     width: 50px;
-    border-radius: 10px;
+   
     
 
 }
 .image-section{
     margin-top: 10px;
-    padding: auto;
+
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
     
 }
 .image-section img{
-    width: 550px;
+    width: 48%;
     margin-top: 15px;
     margin-bottom: -6px;
-    margin-left: 5px;
 }
 
 .Services-section{
@@ -224,7 +222,7 @@
 }
 .Packages-section .packages-card .basic-card,.pro-card{
     background-color: #eaeaea;
-    width: 49%;
+    width: 45%;
 }
 .Packages-section .packages-card .basic-card h5{
     background-color: gray;
