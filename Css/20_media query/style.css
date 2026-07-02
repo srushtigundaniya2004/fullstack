@@ -1,0 +1,28 @@
+*{
+    margin: 0px auto;
+    padding: 0px auto;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 0px auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    background-color: rgb(201, 194, 194);
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+.col-3{
+    background-color: aquamarine;
+    margin: 10px 0px;
+}
+.col-6{
+    background-color: burlywood;
+}
+.col-3{
+    background-color: blueviolet;
+}

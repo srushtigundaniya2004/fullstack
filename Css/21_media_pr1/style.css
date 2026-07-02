@@ -1,0 +1,265 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    width: 100%;
+    margin: 0px 0px ;
+ 
+}  
+.col-1 {
+    width: 8.33%;
+    padding: 0px 15px;
+}
+
+.col-2 {
+    width: 16.66%;
+    padding: 0px 15px;
+}
+
+.col-3 {
+    width: 25%;
+    /* padding: 0px 15px; */
+
+}
+
+.col-4 {
+    width: 33.33%;
+    padding: 0px 15px;
+}
+
+.col-5 {
+    width: 41.66%;
+    padding: 0px 15px;
+}
+
+.col-6 {
+    width: 50%;
+
+}
+
+.col-7 {
+    width: 58.33%;
+    padding: 0px 15px;
+}
+
+.col-8 {
+    width: 66.66%;
+    /* padding: 0px 15px; */
+}
+
+.col-9 {
+    width: 75%;
+    padding: 0px 15px;
+
+}
+
+.col-10 {
+    width: 83.33%;
+    padding: 0px 15px;
+}
+
+.col-11 {
+    width: 91.66%;
+    padding: 0px 15px;
+}
+
+.col-12 {
+    width: 100%;
+    /* padding: 0px 15px; */
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.align-item-center{
+    align-items: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    padding: 0px 0px;
+}
+header .menu{
+    background-color: #f44336;
+    box-shadow: 0px 2px 5px 0 #00000029;
+    display: flex;
+}
+header .menu ul li a{
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+header .menu ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* hero-content */
+.hero{
+    background-color: #f44336;
+    padding: 120px 16px;
+}
+.hero .hero-content{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.hero .hero-content h1{
+    margin: 16px;
+    color: #fff;
+    font-size: 64px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.hero .hero-content p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    margin: 24px 0px;
+}
+.hero .hero-content a{
+    background-color: black;
+    margin: 15px 0px;
+    padding: 12px 24px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}
+.hero .hero-content a:hover{
+    background-color: gainsboro;
+    color: black;
+}
+
+/* post-content1 */
+.first-post{
+    padding: 64px 100px;
+}
+
+.first-post .first-content h2{
+    margin: 10px auto;
+    font-size: 36px;
+    font-weight: 400;
+
+}
+.first-post .first-content h6{
+    padding: 32px 0px;
+    margin: 10px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 1;
+}
+.first-post .first-content p{
+    margin: 15px 0px;
+    font-size: 14px;
+    font-weight:400;
+    color: gray;
+     line-height: 1.5;
+    letter-spacing: 1;
+
+}
+.first-post .first-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first-post .first-image i{
+   font-size: 200px;
+   color: #f44336;
+   text-align: center;
+}
+
+/* post-content2 */
+.second-post .second-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-post .second-image i{
+   font-size: 200px;
+   color: #f44336;
+   text-align: center;
+}
+.second-post{
+    padding: 64px 100px;
+    background-color: #f1f1f1;
+}
+
+.second-post .second-content h2{
+    margin: 10px 0px;
+    font-size: 36px;
+    font-weight: 300;
+
+}
+.second-post .second-content h6{
+    padding: 32px 0px;
+    margin: 10px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 1;
+}
+.second-post .second-content p{
+    margin: 15px 0px;
+    font-size: 14px;
+    font-weight:400;
+    color: gray;
+     line-height: 1.5;
+    letter-spacing: 1;
+
+}
+/* live-section */
+.live-section{
+    background-color: gray;
+    padding: 64px 16px;
+}
+.live-section .live-content{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.live-section .live-content p{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 300;
+}
+
+/* footer-section */
+.footer-section{
+    padding: 64px 100px;
+}
+.footer-section .icons{
+  display: flex;
+  padding: 20px 0px;
+  justify-content: center;
+  align-items: center;
+}
+.footer-section .icons a i{
+    font-size: 24px;
+    color: #000000;
+}
+.footer-section .icons a i:hover{
+    color: #818080;
+}
+.footer-section .link-section{
+    margin: 16px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-section .link-section p{
+    color: #818080;
+}
+.footer-section .link-section p a{
+    color: #808181;
+    text-decoration: underline;
+}

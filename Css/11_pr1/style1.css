@@ -305,16 +305,20 @@ h3{
 }
 .work-container .design-1 img{
     margin-top:50px;
-    margin-left: 2px;
     width: 350px;
     margin-bottom: 5px;
+    padding: 0px 20px;
 
    
 }
+.design-1 .image{
+    /* padding: 0px 10px; */
+}
 .work-container .design-2 img{
-    margin-left: 2px;
     width: 350px;
     margin-bottom: 20px;
+    padding: 10px 20px;
+
 }
 
 /*  skils section  */
@@ -325,14 +329,14 @@ h3{
     margin: 50px auto;
     padding: 90px 0px;
 }
-.skils-container .skils-contant h5{
+.skils-container .skils-section h5{
     font-size: 24px;
     font-weight: 100;
     margin: 0% 60px;
     margin-bottom: 20px;
 }
 
-.skils-container .skils-contant p{
+.skils-container .skils-section p{
     font-size: 15px;
     font-weight: 100;
     margin: 0% 60px;

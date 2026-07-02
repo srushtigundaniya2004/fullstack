@@ -5,7 +5,7 @@
 }
 .container{
    width: 90%;
-   margin: 0px auto;
+   margin: 0px;
    
 }
 ul{
@@ -73,7 +73,7 @@ li{
 .menu{
     align-items: center;
     display: flex;
-    padding:  25px;
+    padding-top:  25px;
     background-color: #ffffff;
 }
 header .menu ul{

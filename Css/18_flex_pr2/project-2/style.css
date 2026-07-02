@@ -82,6 +82,7 @@
 .header .logo{
     text-align: center;
     align-items: center;
+    display: flex;
      
 }
 h1{
@@ -100,21 +101,32 @@ i{
 li{
     list-style: none;
 }
-.col-10{
+
+
+header .icons {
     display: flex;
     align-items: center;
-    background-color: #4d636f;
-    color: white;
+    justify-content: flex-start;
+    
 
 }
+.icons i {
+    padding: 17px 24px;
+    color: rgb(249, 249, 249);
+    font-size: 20px;
+    align-self: center;
+}
+.icons i:hover{
+    background-color: #f6f7f8;
+    color: black;
+}
+
  i{
     margin: 0px 20px;
     font-size: 18px;
 
 }
- i:hover{
-    background-color: lightgray;
-}
+
 .header .image{
        background-color: #4d636f;
        text-align: center;
@@ -595,13 +607,3 @@ hr{
     text-decoration: underline;
 
 }
-
-
-
-
-
-
-
-
-
-
