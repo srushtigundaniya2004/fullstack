@@ -1,0 +1,212 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.nav-item .nav-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+.signin ul li {
+    margin: 0px 5px;
+}
+.signin ul li a{
+    color:black;
+    font-weight: 600;
+}
+.signin .signinbtn{
+    padding: 4px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.signin .joinnow{
+    padding: 4px 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+
+/* order section */
+.order-section .order-contant p{
+    font-size: 20px;
+}
+.order-section .order-contant button{
+    background-color: transparent;
+    border-radius: 30px;
+    font-size: 18px;
+    border: 2px solid white;
+    color: #ffffff;
+    padding: 0px 30px;
+}
+
+.officially-contant h2{
+   color: white;
+   font-size: 30px;
+}
+.officially-contant p{
+    font-size: 24px;
+    color: white;
+    line-height: 2rem;
+}
+.officially-contant .ordernow{
+      border-radius: 30px;
+    font-size: 18px;
+    border: 2px solid white;
+    color:green;
+    padding: 0px 30px;
+}
+ 
+/* connects-section  */
+.connects-section  .connects-contant h2{
+    font-size:26px;
+    letter-spacing: 2px;
+}
+.connects-section .connects-contant p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}                                       
+.connects-contant button{
+
+     padding: 5px 15px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+/* summer-section  */
+.summer-section  .summer-contant h2{
+    font-size:26px;
+    letter-spacing: 2px;
+}
+.summer-section .summer-contant p{
+    font-size: 19px;
+    line-height: 1.5;
+}
+.summer-section .summer-contant button{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+    color: #198754;
+}
+.summer-section .summer-contant button:hover{
+    background-color: #dcd9d9;
+}
+
+
+/* energy-section  */
+.energy-section  .energy-contant h2{
+    font-size:26px;
+    letter-spacing: 2px;
+}
+.energy-section .energy-contant p{
+    font-size: 19px;
+    line-height: 1.5;
+}
+.energy-section .energy-contant button{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+.energy-section .energy-contant button:hover{
+    background-color:darkgreen;
+}
+
+/* smith-section  */
+.smith-section  .smith-contant h2{
+    font-size:26px;
+    letter-spacing: 2px;
+}
+.smith-section .smith-contant p{
+    font-size: 19px;
+    line-height: 1.7;
+}
+.smith-section .smith-contant button{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+/* product-section */
+.product-section .product-contant p{
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+    
+}
+
+/* purchase-section */
+.purchase-section .purchase-contant p{
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+    line-height: 1.8;
+    
+}
+.purchase-section .purchase-contant a{
+     font-size: 14px;
+    color: black;
+    font-weight: 400;
+    
+    text-decoration: underline;
+}
+/* footer section */
+.footer-section{
+    box-shadow: 0 -1px 3px #0000001a;
+}
+
+.footer-section .footer-contant h3 {
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: black;
+   
+}
+
+.footer-section li {
+    font-size: 16px;
+    color: #00000094;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.footer-section li:hover{
+    color: #070404;
+}
+.privacy{
+   
+    align-items: center;
+    border-top: 1px solid lightgray;
+}
+
+.privacy i{
+    margin:30px 0px;
+    font-size: 30px;
+}
+.privacy li{
+    margin-top: 10px;
+    color: #000;
+}
+
+.privacy p{
+    color: rgb(83, 82, 82);
+    margin-top:20px;
+}
