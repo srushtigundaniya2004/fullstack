@@ -2,7 +2,7 @@
     margin: 0px 0px;
     padding: 0px 0px;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 .container {
@@ -39,7 +39,7 @@
 
 .col-6 {
     width: 50%;
-    padding: 0px 0px;
+    padding: 0px 15px;
 
 }
 
@@ -92,11 +92,13 @@ li {
 }
 
 header {
-    padding: 20px 10px;
+    padding: 10px 10px;
     background-color: whitesmoke;
     position: fixed;
     z-index: 100;
     width: 100%;
+    align-items: center;
+
 
 }
 
@@ -105,7 +107,8 @@ header .logo h1 {
     align-items: center;
     text-align: center;
     letter-spacing: 1px;
-    font-weight: 500;
+    font-weight: 600;
+    margin: 10px 0px;
 
 
 }
@@ -117,21 +120,21 @@ header .logo h1 {
 .right ul {
     display: flex;
     gap: 30px;
-    margin: 10px 0px;
+    margin: 15px 0px;
     padding: 0px 0px;
-
+    align-items: center;
+  
 }
 
 .right ul li a {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     color: black;
 }
 
  .right button {
-    margin: 0px 10px;
-    padding: 10px 10px;
-    margin-top: -5px;
+   font-size: 15px;
+    padding: 5px 15px;
     border: none;
     background-color: rgb(65, 190, 65);
     border-radius: 20px;
@@ -174,7 +177,7 @@ header .logo h1 {
     letter-spacing: 1px;
 
 }
-button{
+.hero-contant button{
     margin: 20px 0px;
     padding: 10px 20px;
     border-radius: 20px;
@@ -189,24 +192,444 @@ button{
 .about-section{
     display: flex;
     margin-top: 40px;
+   
 }
 .about-image{
     margin: 10px 10px;
     padding: 10px 10px;
+    margin-left: 60px;
+   
 }
 .about-image h2{
-    margin: 20px 10px;
-    font-size: 25px;
+    margin: 10px 10px;
+    font-size: 30px;
     color: rgb(86, 79, 79);
+    line-height: 2rem;
 }
 .about-image h5{
-    margin: 0px 10px;
+    margin: 10px 10px;
     font-size: 15px;
     font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
     
 }
 .about-image span{
-    margin-top: 10px;
+    gap: 10px;
     display: block;
     margin: 0px 10px;
+    letter-spacing: 1px;
 }
+.about-image span i{
+    color: #5fcf80;
+}
+.about-image button{
+    margin-top:20px;
+    padding:12px 30px;
+    background:#5fcf80;
+    color:white;
+    border:none;
+    border-radius:20px;
+    font-size:16px;   
+}
+
+/* count-section */
+.count-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 20px 0px;
+    background-color: rgb(240, 240, 240);
+}
+.count-section .count-box{
+    text-align: center;
+}
+.count-section .count-box h2{
+    font-size: 50px;
+   color:#5fcf80;
+}
+.count-box p{
+    font-size: 16px;
+    color: rgb(136, 133, 133);
+    line-height: 1.5rem;
+}
+/* why-us-section */
+.why-us{
+    display: flex;
+    margin-top: 50px;
+    padding: 20px 70px;
+}
+
+/* why-us-section */
+/* Left-box*/
+
+.left-box{
+    background:#5fd17b;
+    color:#fff;
+    padding:30px 40px;
+    height:100%;
+}
+
+.left-box h2{
+    font-size:40px;
+    font-weight:700;
+    margin-bottom:30px;
+}
+
+.left-box p{
+    font-size:16px;
+    line-height:1.5rem;
+    margin-bottom:40px;
+}
+
+a.btn {
+    background:rgba(255,255,255,.25);
+    color:#fff;
+    text-decoration:none;
+    padding:15px 40px;
+    border-radius:40px; 
+}
+
+a.btn:hover{
+    background:#fff;
+    color:#5fd17b;
+}
+
+/*right- Cards */
+
+.card-box{
+    border:1px solid #eee;
+    padding:60px 25px;
+    text-align:center;
+    height:100%;
+    transition:0.3s;
+}
+
+.card-box:hover{
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+
+.icon{
+   width:80px;
+    height:80px;
+    background:#f4fff5;
+    border-radius:50px;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+
+.icon i{
+    font-size:35px;
+    color:#5fd17b;
+}
+.icon:hover{
+    background-color: #7eed99;
+}
+
+.card-box h4{
+    font-size:20px;
+    font-weight:700;
+    margin-bottom:20px;
+    padding: 10px 0px;
+    color: #5e5656;
+}
+
+.card-box p{
+    color:#777;
+    line-height:30px;
+}
+
+/*features-items */
+.features-items{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding: 20px 60px;
+
+}
+.feature-box{
+    border:1px solid #e5e5e5;
+    padding:20px 25px;
+    display:flex;
+    align-items:center;
+    gap:18px;
+    background:#fff;
+    margin-top:15px;
+}
+
+
+.feature-box i{
+    font-size:30px;
+}
+
+.feature-box span{
+    font-size:16px;
+    font-weight:600;
+    color:#2c3e50;
+}
+
+/* courses-section */
+.courses-section{
+    padding: 50px 0px;
+    
+}
+.about-courses{
+  padding: 10px 80px;
+  
+
+}
+.courses-section h1{
+    font-size: 15px;
+    color: rgb(86, 79, 79);
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.courses-section h2{
+    font-size: 40px;
+    color: rgb(21, 3, 3);
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.card{
+    display: flex;
+    padding: 10px 60px;
+}
+
+
+.course-card{
+    border:1px solid #ddd;
+    border-radius:6px;
+    background:#fff;
+}
+.course-card img{
+    width:100%;
+   
+}
+.course-content{
+    padding:20px;
+}
+
+.course-price{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.course-price span{
+    background:#5fcf80;
+    color:#fff;
+    padding:8px 18px;
+    border-radius:5px;
+    font-size:16px;
+    font-weight:600;
+}
+
+.course-price h3{
+    color:#5a5a5a;
+    font-size:20px;
+}
+
+.course-content h2{
+    font-size:18px;
+    color:#37423b;
+    margin-bottom:15px;
+}
+
+.course-content p{
+    color:#777;
+    margin-bottom:20px;
+}
+
+.course-footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:15px;
+}
+
+.trainer{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.trainer img{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+}
+
+.trainer h4{
+    color:#666;
+    font-size:18px;
+    font-weight:500;
+}
+
+.course-icon{
+    display:flex;
+    gap:18px;
+    color:#999;
+    font-size:18px;
+}
+
+/* trainer-section */
+.about-team{
+    padding: 50px 60px;
+    display: flex;
+}
+.team-card{
+    border:1px solid #ddd;
+    text-align:center;
+    background:#fff;
+}
+
+.team-card img{
+    width:100%;
+}
+
+.team-content{
+    padding:20px 20px;
+}
+
+.team-content h2{
+    font-size:18px;
+    color:#37423b;
+   margin-bottom: 5px;
+}
+
+.team-content h5{
+    font-size:16px;
+    font-style:italic;
+    color:#777;
+    margin-bottom:10px;
+    font-weight:400;
+}
+
+.team-content p{
+    color:#777;
+    font-size:15px;
+    margin-bottom:20px;
+}
+
+.social{
+    display:flex;
+    justify-content:center;
+    
+}
+
+.social a{
+    color:#999;
+    font-size:20px;
+ 
+}
+
+.social a:hover{
+    color:#5fcf80;
+}
+/* footer-section */
+.footer-section{
+    background:#f8f8f8;
+    padding:70px 70px;
+}
+
+.footer-section h2{
+    font-size:25px;
+    font-weight:700;
+    margin-bottom:25px;
+}
+
+.footer-section h4{
+    font-size:20px;
+    margin-bottom:20px;
+    font-weight:600;
+}
+
+.footer-section p{
+    color:#666;
+    line-height:30px;
+}
+
+.footer-section ul{
+    list-style:none;
+    padding:0;
+}
+
+.footer-section ul li{
+    margin-bottom:15px;
+}
+
+.footer-section ul li a{
+    text-decoration:none;
+    color:#666;
+ 
+}
+
+.footer-section ul li a:hover{
+    color:#5fcf80;
+}
+
+.social-icons{
+    margin-top:25px;
+}
+
+.social-icons a{
+    width:45px;
+    height:45px;
+    border:1px solid #bbb;
+    border-radius:50px;
+    align-items:center;
+    justify-content:center;
+    color:#666;
+    margin-right:10px;
+}
+
+.social-icons a:hover{
+    background:#5fcf80;
+    color:#fff;
+    border-color:#5fcf80;
+}
+
+.newsletter{
+    display:flex;
+    margin-top:25px;
+}
+
+.newsletter input{
+    height:50px;
+    border:1px solid #ddd;
+    border-radius:30px 0 0 30px;
+    padding:0 20px;
+    
+}
+
+.newsletter button{
+    border:none;
+    background:#5fcf80;
+    color:#fff;
+    padding:0 30px;
+    border-radius:0px 30px 30px 0px;
+    font-size:15px;
+}
+
+.copyright{
+    margin-top:60px;
+    background:#eee;
+    text-align:center;
+    padding:30px;
+}
+
+.copyright p{
+    margin-bottom:10px;
+}
+
+.copyright span{
+    color:#5fcf80;
+}
+
