@@ -9,3 +9,22 @@ li{
 a{
     text-decoration: none;
 }
+.post-content{
+    position: relative;
+}
+.about-post{
+    position: absolute;
+    bottom: 50px; 
+}
+.about-post1{
+    position: absolute;
+    bottom: 0px; 
+}
+.career{
+    position: relative;
+}
+.about-career{
+    position: absolute;
+    bottom: 0px;
+
+}
