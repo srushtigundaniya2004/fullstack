@@ -171,6 +171,7 @@
 
      .about-section {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
     
     }
@@ -181,11 +182,12 @@
 
     }
 
+
     .about-team {
         flex-wrap: wrap;
         flex-direction: column;
  
-    }
+    } 
 }
 
 /* large media */

@@ -302,11 +302,6 @@ a.btn:hover{
     padding:60px 25px;
     text-align:center;
     height:100%;
-    transition:0.3s;
-}
-
-.card-box:hover{
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
 }
 
 
@@ -379,8 +374,8 @@ a.btn:hover{
     
 }
 .about-courses{
-  padding: 10px 80px;
-  
+    padding: 10px 80px;
+   
 
 }
 .courses-section h1{
@@ -404,7 +399,7 @@ a.btn:hover{
 
 .course-card{
     border:1px solid #ddd;
-    border-radius:6px;
+    border-radius:10px;
     background:#fff;
 }
 .course-card img{
@@ -566,7 +561,6 @@ a.btn:hover{
 }
 
 .footer-section ul li a{
-    text-decoration:none;
     color:#666;
  
 }
